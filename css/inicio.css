@@ -1,0 +1,61 @@
+.iniciomain {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .iniciomain .titulo-and-iframe {
+    text-align: center;
+  }
+  .titulo-and-iframe h1 {
+    font-size: 5rem;
+  }
+  .titulo-and-iframe iframe {
+    width: 660px;
+    height: 310px;
+    box-shadow: 5px 10px 10px 5px black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .iniciomain .Paragraph {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Paragraph h2 {
+    font-size: 2rem;
+    padding: 10px;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  .Paragraph p {
+    font-size: 30px;
+    padding: 10px;
+  }
+/* TABLET */
+@media (max-width: 1024px) {
+
+}
+/* CELULAR */
+@media (max-width: 600px) {
+
+  /* Index Inicio */
+  .iniciomain {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .titulo-and-iframe {
+    width: 100%;
+  }
+  .titulo-and-iframe h1 {
+    font-size: 3rem;
+  }
+  .titulo-and-iframe iframe {
+    width: 100%;
+    height: 30vh;
+    box-shadow: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+  }
+}
+

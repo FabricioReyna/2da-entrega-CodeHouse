@@ -1,0 +1,89 @@
+/* Ubicacion */
+.titulo-ubicacion {
+    text-align: center;
+  }
+  .titulo-ubicacion h1 {
+    font-size: 5rem;
+  }
+  .titulo-ubicacion h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+    padding-bottom: 10px;
+  }
+  .titulo-ubicacion iframe {
+    height: 50vh;
+    width: 100%;
+    border: none;
+  }
+  
+  .descripcion-ubicacion {
+    height: 40vh;
+    display: grid;
+    grid-template-areas:
+      "h2 h2"
+      "p img";
+  }
+  .descripcion-ubicacion h2 {
+    font-size: 2em;
+    text-align: center;
+    grid-area: h2;
+  }
+  .descripcion-ubicacion p {
+    font-size: 1.5rem;
+    grid-area: p;
+  }
+  .descripcion-ubicacion img {
+    width: 30em;
+    grid-area: img;
+  }
+/* TABLET */
+@media (max-width: 1024px) {
+
+    /* Ubicacion */
+    .descripcion-ubicacion {
+      height: 40vh;
+      display: grid;
+      grid-template-areas:
+        "h2 h2"
+        "p img";
+    }
+    .descripcion-ubicacion h2 {
+      font-size: 2em;
+      text-align: center;
+      grid-area: h2;
+    }
+    .descripcion-ubicacion p {
+      font-size: 1.3rem;
+      grid-area: p;
+    }
+
+  }
+  /* CELULAR */
+  @media (max-width: 600px) {
+
+    /* Ubicacion */
+    .titulo-ubicacion h1 {
+      font-size: 3rem;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: 90vh;
+    }
+    .descripcion-ubicacion {
+      height: 40vh;
+      display: inline-block;
+    }
+    .descripcion-ubicacion h2 {
+      font-size: 2em;
+    }
+    .descripcion-ubicacion p {
+      font-size: 1.3rem;
+    }
+    .descripcion-ubicacion img {
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+  
+ 

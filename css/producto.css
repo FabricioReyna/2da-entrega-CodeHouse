@@ -1,0 +1,70 @@
+/* Producto */
+.titulo-producto {
+    text-align: center;
+    padding: 10px 0 10px 0;
+  }
+  .titulo-producto h1 {
+    font-size: 5rem;
+    padding-bottom: 10px;
+  }
+  .titulo-producto img {
+    width: 100%;
+  }
+  .descripcion-producto h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .carousel-item img {
+    height: 38em;
+  }
+  
+  .list-producto ul {
+    display: flex;
+  }
+  .list-producto ul li {
+    list-style: none;
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .list-producto p {
+    width: 100%;
+    font-size: 1em;
+  }
+  .list-producto img {
+    width: 500px;
+  }
+  /* TABLET */
+@media (max-width: 1024px) {
+    /* Producto */
+    .list-producto ul {
+      padding: 10px;
+    }
+    .list-producto img {
+      width: 100%;
+      max-width: 200px;
+      height: 100px;
+    }
+  }
+  /* CELULAR */
+  @media (max-width: 600px) {
+    /* Producto */
+    .titulo-producto h1 {
+      font-size: 3rem;
+      padding-bottom: 10px;
+    }
+    .list-producto ul {
+      display: inline-block;
+      padding: 10px 0px 0px 0px;
+      width: 100%;
+    }
+    .list-producto ul li {
+      width: 100%;
+    }
+    .list-producto ul img {
+      width: 100%;
+      max-width: none;
+      height: 200px;
+    }
+  }

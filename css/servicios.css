@@ -1,0 +1,137 @@
+/* SERVICIOS */
+.titulo-servicios {
+    text-align: center;
+  }
+  .titulo-servicios h1 {
+    font-size: 3.5rem;
+    padding-bottom: 10px;
+  }
+  .servicios-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .servicios-img img:hover {
+    transition: 3s;
+    transform: scale(1.2);
+  }
+  .titulo-servicios .servicios-img img {
+    width: 32vw;
+    height: 34vh;
+  }
+  .descripcion-servicios {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .descripcion-servicios h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .descripcion-servicios p {
+    font-size: 1.5em;
+    padding: 10px 0 0 10px;
+  }
+  .descripcion-servicios .list-servicios {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-link-stylos{
+    color: #000;
+    padding-top: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .nav-link-stylos:hover{
+    color: #c21500;
+  }
+  .list-conect-styles h4 {
+    text-align: center;
+    font-weight: bold;
+  }
+  .list-conect-styles:nth-child(1) {
+    background: #ddd6f3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #faaca8,
+      #ddd6f3
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #faaca8,
+      #ddd6f3
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+  }
+  .list-conect-styles:nth-child(2) {
+    background: #50c9c3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #96deda,
+      #50c9c3
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #96deda,
+      #50c9c3
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    border-radius: 10px;
+  }
+  .list-conect-styles:nth-child(3) {
+    background: #ddd6f3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #faaca8,
+      #ddd6f3
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #faaca8,
+      #ddd6f3
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+  }
+  .list-conect-styles:nth-child(4) {
+    background: #50c9c3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #96deda,
+      #50c9c3
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #96deda,
+      #50c9c3
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    border-radius: 10px;
+  }
+  /* TABLET */
+@media (max-width: 1024px) {
+    /* servicos */
+    .servicios-img {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .titulo-servicios .servicios-img img {
+      width: 52vw;
+      height: 20vh;
+    }
+
+  }
+  /* CELULAR */
+  @media (max-width: 600px) {
+
+    /* Servicios */
+    .servicios-img {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .titulo-servicios .servicios-img img {
+      width: 100%;
+      height: 30vh;
+    }
+
+  }
+
+  
