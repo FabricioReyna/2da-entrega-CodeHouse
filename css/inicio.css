@@ -25,10 +25,18 @@
     padding: 10px;
     text-decoration: underline;
     text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 10px;
   }
   .Paragraph p {
     font-size: 30px;
     padding: 10px;
+  }
+  .Paragraph p::first-letter{
+    color: #000;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
   }
 /* TABLET */
 @media (max-width: 1024px) {

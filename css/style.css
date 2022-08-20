@@ -107,6 +107,11 @@ footer {
 .footer-div a i {
   color: black;
   font-size: 40px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 5px;
+  right: 3px;
 }
 .footer-div a:nth-child(1):hover {
   background: linear-gradient(
@@ -119,12 +124,38 @@ footer {
     #fd1d1d
   );
   width: 46px;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 .footer-div a:nth-child(2):hover {
-  background: linear-gradient(45deg, #0077b5, #00a0dc);
+  background: linear-gradient(45deg, #0077b5 65%, #00a0dc 25%);
   width: 46px;
+  border-radius: 10px;
+}
+.footer-div a:nth-child(3):hover {
+  background: #50C9C3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  width: 46px;
+  border-radius: 10px;
+}
+.footer-div a:nth-child(4) {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
   border-radius: 50%;
+  background: #4EEC0E; 
+  transition: 2s;
+  transform: rotate(360deg);
+
+}
+.footer-div a:nth-child(4) i {
+ position: relative;
+ left: 0;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+
 }
 
 /* TABLET */
